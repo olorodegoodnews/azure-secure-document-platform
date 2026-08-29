@@ -78,7 +78,7 @@ The completed configuration includes:
   ![Application subnet](Screenshots/Public-app-Subnet.png)
   
 * Private Endpoint subnet
-  ![Private Endpoint subnet](Screenshots/Private-Endpoint-Subnet.png)
+  ![Private Endpoint subnet](../Screenshots/Private-Endpoint-Subnet.png)
   
 * Documented network configuration
 
