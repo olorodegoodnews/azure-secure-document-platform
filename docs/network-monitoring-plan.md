@@ -69,13 +69,13 @@ The Azure network infrastructure was successfully created and is ready to suppor
 The completed configuration includes:
 
 * Working Azure VNet
-  ![Working Azure VNet](Screenshots/Virtual-Network.png)
+  ![Working Azure VNet](../Screenshots/Virtual-Network.png)
 
 * Subnets Created
-  ![Subnet](Screenshots/VN-Subnets.png)
+  ![Subnet](../Screenshots/VN-Subnets.png)
   
 * Application subnet
-  ![Application subnet](Screenshots/Public-app-Subnet.png)
+  ![Application subnet](../Screenshots/Public-app-Subnet.png)
   
 * Private Endpoint subnet
   ![Private Endpoint subnet](../Screenshots/Private-Endpoint-Subnet.png)
