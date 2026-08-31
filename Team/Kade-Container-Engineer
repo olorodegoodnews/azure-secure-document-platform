@@ -1,1 +1,89 @@
+ # Azure Container Apps Setup
 
+## Objective
+
+Create and configure an Azure Container App to understand the basic process of running a containerized application in Azure.
+
+## Tasks Completed
+
+### 1. Create Container Apps Environment
+
+Created an Azure Container Apps environment to provide the infrastructure required to run the containerized application.
+
+**Environment Name:**
+ManagedEnvironment-rgsecuredocument-platform
+
+**Resource Group:**
+rg-secure-document-platform`
+
+**Region:**
+`us east`
+
+### 2. Create Container App
+
+Created a Container App inside the Container Apps environment.
+
+**Container App Name:**
+rg-secure-document-platform
+
+### 3. Configure Ingress
+
+Enabled **Ingress** to allow the Container App to receive incoming traffic.
+
+Configuration:
+
+* Ingress: Enabled
+* Traffic: External
+* Target Port: 800
+* Transport: Auto
+
+Ingress allows users or other services to access the application running inside the container.
+
+### 4. Verify Deployment
+
+Checked the Container App in the Azure Portal to confirm that the resource was successfully created and running.
+
+### 5. Application URL
+
+Azure provides an application URL when external ingress is enabled.
+
+**Application URL:**
+`[Paste Container App URL here]`
+
+The URL can be used to access the application once a containerized application has been deployed.
+
+## What We Learned
+
+* How to create an Azure Container Apps environment.
+* How to create an Azure Container App.
+* How Container Apps use environments.
+* How to enable external ingress.
+* How to expose a containerized application through a public URL.
+* Basic understanding of deploying containers on Azure.
+
+## Architecture
+
+```text
+Azure Subscription
+       │
+       ▼
+Resource Group
+       │
+       ▼
+Container Apps Environment
+       │
+       ▼
+Azure Container App
+       │
+       ▼
+Ingress
+       │
+       ▼
+Application URL
+```
+
+## Deliverable
+
+A successfully created and configured **Azure Container App** with ingress enabled.
+
+> Note: A custom application image has not been deployed as part of this basic exercise. The purpose of this task is to understand the Azure Container Apps setup and configuration process.
