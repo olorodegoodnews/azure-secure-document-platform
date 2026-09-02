@@ -150,16 +150,16 @@ Screenshots documenting the completed configuration should be added to the proje
 
 1. Private Endpoint Overview
 
-![Private Endpoint Overview](../Screenshots/Private-Endpoint-overview.png)
+![Private Endpoint Overview](../Screenshots/Storage-Endpoint-overview.png)
 
 
 2. Private Endpoint Networking/Subnet configuration
 
-![Private Endpoint Networking-Subnet configuration](../Screenshots/Private-Endpoint-vn..subnet.png)
+![Private Endpoint Networking-Subnet configuration](../Screenshots/Storage-Endpoint-vn..subnet.png)
 
 3. Storage Account Private Endpoint connection
 
-![Storage Account Private Endpoint connection](../Screenshots/Private-Endpoint-status.png)
+![Storage Account Private Endpoint connection](../Screenshots/Storage-Endpoint-status.png)
 
 ---
 
