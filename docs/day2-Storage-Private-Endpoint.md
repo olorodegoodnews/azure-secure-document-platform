@@ -152,6 +152,7 @@ Screenshots documenting the completed configuration should be added to the proje
 
 ![Private Endpoint Overview](../Screenshots/Private-Endpoint-overview.png)
 
+
 2. Private Endpoint Networking/Subnet configuration
 
 ![Private Endpoint Networking-Subnet configuration](../Screenshots/Private-Endpoint-vn..subnet.png)
